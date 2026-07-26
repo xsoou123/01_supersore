@@ -1,0 +1,9 @@
+chardet
+matplotlib
+openpyxl
+pandas
+PyMySQL
+python-docx
+python-dotenv
+SQLAlchemy
+
