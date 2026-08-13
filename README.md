@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📊 Superstore Sales Data Analysis
+# 📊 Superstore 销售数据分析
 
-### End-to-End Data Analysis Project using Python, MySQL & Data Visualization
+### 基于 Python、MySQL 与数据可视化的端到端数据分析项目
 
 <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python">
 <img src="https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql">
@@ -14,30 +14,30 @@
 
 ---
 
-# 📖 Project Overview
+# 📖 项目概述
 
-This project demonstrates a complete **Business Data Analysis Workflow** using the Superstore Sales dataset.
+本项目基于 **Superstore Sales 数据集**，展示了一套完整的商业数据分析流程。
 
-Starting from raw CSV data, the project imports data into MySQL, performs SQL analysis, exploratory data analysis (EDA), business visualization, and finally generates an automated Word business report.
+项目从原始 CSV 数据开始，通过 Python 将数据导入 MySQL，随后完成 SQL 业务分析、探索性数据分析（EDA）、商业可视化，并最终自动生成 Word 格式的数据分析报告。
 
-This project is designed as a portfolio project for **Data Analyst**, **Business Analyst**, and **Python Developer** positions.
+该项目主要用于展示 **数据分析、商业分析以及 Python 数据处理** 相关能力。
 
 ![Monthly Sales Trend](image/monthly_sales.png)
 
 ---
 
-# 🎯 Objectives
+# 🎯 项目目标
 
-- Import raw CSV data into MySQL
-- Perform SQL business analysis
-- Conduct Exploratory Data Analysis (EDA)
-- Build business-style visualizations
-- Generate an automated Word report
-- Demonstrate an end-to-end data analysis workflow
+- 将原始 CSV 数据导入 MySQL
+- 使用 SQL 完成业务指标分析
+- 使用 Python 进行探索性数据分析（EDA）
+- 构建商业风格的数据可视化图表
+- 自动生成 Word 数据分析报告
+- 展示完整的端到端数据分析工作流
 
 ---
 
-# 📂 Project Structure
+# 📂 项目结构
 
 ```text
 superstore-sales-analysis
@@ -73,139 +73,139 @@ superstore-sales-analysis
 
 ---
 
-# 🔄 Workflow
+# 🔄 数据分析流程
 
 ```text
-CSV Dataset
+CSV 原始数据
       │
       ▼
-Import into MySQL
+导入 MySQL
       │
       ▼
-SQL Analysis
+SQL 业务分析
       │
       ▼
 Python EDA
       │
       ▼
-Business Visualization
+商业数据可视化
       │
       ▼
-Word Report
+Word 分析报告
 ```
 
 ---
 
-# 📊 Dataset Information
+# 📊 数据集信息
 
-| Item | Value |
+| 项目 | 内容 |
 |------|------|
-| Dataset | Superstore Sales |
-| Records | 9,800 |
-| Columns | 18 |
-| Missing Values | Postal Code (11) |
-| Database | MySQL |
+| 数据集 | Superstore Sales |
+| 数据量 | 9,800 条 |
+| 字段数量 | 18 |
+| 缺失值 | Postal Code（11 条） |
+| 数据库 | MySQL |
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 技术栈
 
-| Technology | Description |
+| 技术 | 用途 |
 |------------|-------------|
-| Python | Data Analysis |
-| MySQL | Database |
-| Pandas | Data Processing |
-| SQLAlchemy | Database Connection |
-| PyMySQL | MySQL Driver |
-| Matplotlib | Data Visualization |
-| python-docx | Word Report |
-| OpenPyXL | Excel Processing |
+| Python | 数据分析与自动化 |
+| MySQL | 数据库存储 |
+| Pandas | 数据清洗与处理 |
+| SQLAlchemy | Python 与数据库连接 |
+| PyMySQL | MySQL 驱动 |
+| Matplotlib | 数据可视化 |
+| python-docx | Word 报告生成 |
+| OpenPyXL | Excel 数据处理 |
 
 ---
 
-# 📈 SQL Analysis
+# 📈 SQL 业务分析
 
-The SQL module includes:
+SQL 模块主要包括：
 
-- Total Sales
-- Total Orders
-- Average Sales
-- Monthly Sales Trend
-- Category Analysis
-- Regional Analysis
-- Top Products
-- Top Customers
-
----
-
-# 🔍 Exploratory Data Analysis (EDA)
-
-EDA includes:
-
-- Data Overview
-- Data Types
-- Missing Value Detection
-- Duplicate Detection
-- Descriptive Statistics
-- Sales Analysis
-- Category Analysis
-- Region Analysis
-- Customer Segment Analysis
-- Top Products Analysis
+- 总销售额
+- 总订单量
+- 平均销售额
+- 月度销售趋势
+- 商品类别分析
+- 区域销售分析
+- Top 产品分析
+- Top 客户分析
 
 ---
 
-# 📊 Data Visualization
+# 🔍 探索性数据分析（EDA）
 
-The project automatically generates the following charts:
+EDA 主要包括：
 
-| Chart | Description |
+- 数据概览
+- 数据类型检查
+- 缺失值检测
+- 重复值检测
+- 描述性统计
+- 销售额分析
+- 品类分析
+- 区域分析
+- 客户群体分析
+- Top 产品分析
+
+---
+
+# 📊 数据可视化
+
+项目会自动生成以下图表：
+
+| 图表 | 说明 |
 |--------|-------------|
-| 📈 Monthly Sales Trend | Monthly sales changes |
-| 📊 Sales by Category | Category comparison |
-| 🌍 Sales by Region | Regional comparison |
-| 👥 Sales by Segment | Customer segment analysis |
-| 🏆 Top 10 Products | Best-selling products |
-| 📉 Sales Distribution | Sales distribution |
+| 📈 Monthly Sales Trend | 月度销售趋势 |
+| 📊 Sales by Category | 不同商品类别销售表现 |
+| 🌍 Sales by Region | 不同区域销售表现 |
+| 👥 Sales by Segment | 客户群体销售分析 |
+| 🏆 Top 10 Products | 销售额最高的 10 个产品 |
+| 📉 Sales Distribution | 销售额分布情况 |
 
-All charts are exported as high-resolution PNG images.
+所有图表均导出为高分辨率 PNG 图片。
 
 ---
 
-# 📄 Automated Business Report
+# 📄 自动化商业报告
 
-The project automatically generates:
+项目会自动生成：
 
-```
+```text
 Superstore_Report.docx
 ```
 
-The report contains:
+报告主要包含：
 
-- Executive Summary
-- Business Overview
-- Six Business Charts
-- Key Findings
-- Business Conclusion
-
----
-
-# 📌 Key Findings
-
-- Total Sales exceeded **$2.26 Million**
-- Technology generated the highest revenue
-- West region achieved the best performance
-- Consumer customers contributed the largest sales
-- Sales show a long-tail distribution
-- High-value products significantly impact total revenue
+- 执行摘要
+- 业务概览
+- 六张核心业务图表
+- 关键分析发现
+- 商业结论
 
 ---
 
-# ▶️ How to Run
+# 📌 核心分析结论
 
-### Step 1: Install dependencies
+- 总销售额超过 **226 万美元**
+- Technology 类别贡献最高销售额
+- West 区域整体销售表现最佳
+- Consumer 客户群体贡献最大销售额
+- 销售数据呈现明显长尾分布
+- 高价值产品对整体销售额影响较大
 
-Run these commands from the repository root:
+---
+
+# ▶️ 项目运行方式
+
+## Step 1：安装依赖
+
+在项目根目录运行：
 
 ```powershell
 python -m venv .venv
@@ -213,104 +213,120 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-### Step 2: Configure MySQL
+## Step 2：配置 MySQL
 
-Create the `superstore_analysis` database, then copy the example configuration:
+首先创建：
+
+```text
+superstore_analysis
+```
+
+数据库。
+
+然后复制示例环境变量配置：
 
 ```powershell
 Copy-Item .env.example .env
 ```
 
-Open `.env` and replace `replace_with_your_password` with your local MySQL
-password. The `.env` file is excluded from Git and must never be committed.
+打开 `.env` 文件，将：
 
-### Step 3: Import data into MySQL
+```text
+replace_with_your_password
+```
+
+替换为本地 MySQL 密码。
+
+`.env` 文件已经排除在 Git 跟踪之外，不应上传到 GitHub。
+
+## Step 3：导入数据到 MySQL
 
 ```powershell
 python python/01_import_mysql.py
 ```
 
-### Step 4: Run SQL analysis
+## Step 4：运行 SQL 分析
 
-```sql
+执行：
+
+```text
 sql/analysis.sql
 ```
 
-### Step 5: Perform EDA
+## Step 5：执行 Python EDA
 
 ```powershell
 python python/02_eda_analysis.py
 ```
 
-### Step 6: Generate visualizations
+## Step 6：生成数据可视化
 
 ```powershell
 python python/03_visualization.py
 ```
 
-### Step 7: Generate the business report
+## Step 7：生成 Word 商业报告
 
 ```powershell
 python python/04_export_report.py
 ```
 
-All Python scripts use paths relative to the repository, so the project can be
-cloned and run from any local directory.
+项目中的 Python 脚本均使用相对路径，因此克隆到其他本地目录后也可以正常运行。
 
 ---
 
-# 📷 Project Output
+# 📷 项目输出
 
-After running all scripts, the project generates:
+项目运行完成后会生成：
 
-```
+```text
 clean_superstore.csv
 ```
 
-```
-6 Business Charts
+```text
+6 张商业分析图表
 ```
 
-```
+```text
 Superstore_Report.docx
 ```
 
 ---
 
-# 🚀 Skills Demonstrated
+# 🚀 项目能力展示
 
-✔ Python Programming
+✔ Python 数据处理
 
-✔ SQL
+✔ SQL 业务查询
 
-✔ MySQL
+✔ MySQL 数据库
 
-✔ Data Cleaning
+✔ 数据清洗
 
-✔ Exploratory Data Analysis
+✔ 探索性数据分析（EDA）
 
-✔ Business Visualization
+✔ 商业数据可视化
 
-✔ Report Automation
+✔ 自动化报告生成
 
-✔ Data Storytelling
-
----
-
-# 📚 Future Improvements
-
-- Dashboard using Power BI
-- Interactive dashboard using Plotly
-- Machine Learning Sales Forecasting
-- Customer Segmentation
-- Profit Analysis
-- Time Series Forecasting
+✔ 数据故事表达
 
 ---
 
-# 👨‍💻 Author
+# 📚 后续优化方向
 
-**Hongyang Song**
+- 使用 Power BI 构建 Dashboard
+- 使用 Plotly 构建交互式可视化
+- 销售预测模型
+- 客户分群分析
+- 利润分析
+- 时间序列预测
+
+---
+
+# 👨‍💻 作者
+
+**xsoou**
 
 Data Analysis Portfolio
 
@@ -320,6 +336,6 @@ Data Analysis Portfolio
 
 <div align="center">
 
-⭐ If you like this project, feel free to give it a Star!
+⭐ 如果这个项目对你有帮助，欢迎 Star！
 
 </div>
